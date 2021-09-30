@@ -30,7 +30,7 @@ body {
 }
 
 .container {
-	max-width: 475px;
+	max-width: 450px;
 	margin: 100px auto;
 	display: flex;
 	align-items: center;
@@ -48,10 +48,6 @@ body {
 	cursor: pointer;
 }
 
-header {
-	width: 100%;
-}
-
 img {
 	width: 100%;
 }
@@ -63,7 +59,7 @@ h1 {
 	font-size: 30px;
 }
 
-section p {
+.text {
 	color: var(--Desaturated-blue);
 	font-size: 16px;
 	font-weight: 700;
@@ -89,7 +85,7 @@ article div {
 	padding-right: 50px;
 }
 
-article div h4 {
+article div h3 {
 	color: var(--Dark-blue);
 	font-weight: 900;
 	margin-bottom: 5px;
